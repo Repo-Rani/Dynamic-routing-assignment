@@ -1,6 +1,4 @@
-import Node from "postcss/lib/node";
 import { countriesInfo } from "../../../../type/type";
-import Link from "next/link";
 import Button from "@/app/components/Button";
 
 const countryName = ({ params }: { params: { country_name: string } }) => {
